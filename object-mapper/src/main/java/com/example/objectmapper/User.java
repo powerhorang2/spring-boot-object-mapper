@@ -31,9 +31,9 @@ public class User {
 	
 	// Object Mapper가 해당 클래스에 대해서 serializer 할 때
 	// field get 메소드 제외한 다른 get Method를 생성할 시 오류가 남
-	public User getDefaultUser() {
-		return new User("default", 0);
-	}
+	//	public User getDefaultUser() {
+	//		return new User("default", 0);
+	//	}
 
 	@Override
 	public String toString() {
