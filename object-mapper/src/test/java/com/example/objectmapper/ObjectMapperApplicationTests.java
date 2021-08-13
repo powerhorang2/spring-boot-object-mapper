@@ -23,7 +23,7 @@ class ObjectMapperApplicationTests {
 		
 		// object -> text
 		// object mapper 가 get method 를 활욯한다.
-		User user = new User("홍길동", 33);
+		User user = new User("홍길동", 33, "010-1111-2222");
 		String text = objectMapper.writeValueAsString(user);
 		System.out.println(text);
 		
